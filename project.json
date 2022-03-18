@@ -1,0 +1,11 @@
+{
+    "name": "Mars Project2",
+    "key": "MARS2",
+    "description": "Software for colonizing mars.",
+    "links": {
+        "avatar": {
+            "href": "http://i.imgur.com/72tRx4w.gif"
+        }
+    },
+    "is_private": false
+}
