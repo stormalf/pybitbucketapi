@@ -131,6 +131,8 @@ class bitbucketApi():
             raise SystemExit(e)   
         if response.status_code == NO_CONTENT:
             response = "{}"
+        elif response.status_code != 200:
+            response = jsonload('{"message": "Error : ' + str(response.status_code) + ' ' + response.reason + '"}')                                  
         else:            
             response = response.json()
         return response

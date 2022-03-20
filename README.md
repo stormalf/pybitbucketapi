@@ -52,3 +52,5 @@ PUT /workspaces/{workspace}/projects/{project_key}: update the resource
 pybitbucketapi.py
 
 1.0.0 initial version
+
+1.0.1 Managing http error codes
